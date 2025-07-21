@@ -21,7 +21,7 @@ const Index = () => {
 };
 
   return (
-    <section className="bg-img h-screen flex items-center justify-center">
+    <section className="bg-img h-[100svh] flex items-start md:items-center justify-center pt-[50%] sm:pt-0">
       <Swiper
         slidesPerView={1}
         spaceBetween={0}
@@ -33,13 +33,14 @@ const Index = () => {
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="mySwiper w-[60vw] h-[550px] object-cover my-10 z-50"
+        className="mySwiper relative md:w-[60vw] md:h-[550px] object-cover md:my-10 z-50 w-auto"
+
       >
         {['/videos/IMG_4850.mp4', '/videos/IMG_4734.mp4', '/videos/IMG_4738.mp4'].map((src, index) => {
   const posters = ['/images/AnastasiaS.jpg', '/images/ElenaR.jpg', '/images/MarinaH.jpg'];
   return (
     <SwiperSlide key={index}>
-      <div className="flex items-center justify-center h-[500px] w-[60vw]">
+      <div className="flex items-center justify-center md:h-[500px] md:w-[60vw] mx-5">
         <video
           src={src}
           poster={posters[index]}

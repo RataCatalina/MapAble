@@ -23,10 +23,34 @@ body {
     z-index: 0;
 }
 
-.swiper-button-next,
-.swiper-button-prev {
+.swiper-button-prev,
+.swiper-button-next {
   color: white;
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 1.5rem;  
+  height: 1.5rem;
 }
+
+.swiper-button-prev {
+  left: 2rem;
+}
+
+.swiper-button-next {
+  right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 0.5rem;
+    height: 0.5rem;
+    
+  }
+}
+
 
 
 .swiper-pagination-bullet {

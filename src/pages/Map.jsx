@@ -7,71 +7,71 @@ import L from 'leaflet';
 const iconRamp = new L.Icon({
   iconUrl: 'https://img.icons8.com/?size=100&id=Ga8griGzK974&format=png&color=000000',
   iconSize: [40, 40],
-  iconAnchor: [15, 60],
-  popupAnchor: [0, -60],
+  iconAnchor: [15, 40],
+  popupAnchor: [0, -40],
 });
 
 const iconToilet = new L.Icon({
   iconUrl: 'https://img.icons8.com/?size=100&id=cXHBuYVqUu4c&format=png&color=000000',
-  iconSize: [60, 60],
-  iconAnchor: [15, 60],
-  popupAnchor: [0, -60],
+  iconSize: [40, 40],
+  iconAnchor: [15, 40],
+  popupAnchor: [0, -40],
 });
 
 const iconRestaurant = new L.Icon({
   iconUrl: 'https://img.icons8.com/?size=100&id=hDZAPBoj5SPu&format=png&color=000000',
-  iconSize: [60, 60],
-  iconAnchor: [15, 60],
-  popupAnchor: [0, -60],
+  iconSize: [40, 40],
+  iconAnchor: [15, 40],
+  popupAnchor: [0, -40],
 });
 
 const iconCafe = new L.Icon({
-  iconUrl: 'https://img.icons8.com/?size=100&id=12860&format=png&color=000000',
-  iconSize: [60, 60],
-  iconAnchor: [15, 60],
-  popupAnchor: [0, -60],
+  iconUrl: 'https://img.icons8.com/?size=100&id=12840&format=png&color=000000',
+  iconSize: [40, 40],
+  iconAnchor: [15, 40],
+  popupAnchor: [0, -40],
 });
 
 const iconJob = new L.Icon({
   iconUrl: 'https://img.icons8.com/?size=100&id=20497&format=png&color=000000',
-  iconSize: [60, 60],
-  iconAnchor: [15, 60],
-  popupAnchor: [0, -60],
+  iconSize: [40, 40],
+  iconAnchor: [15, 40],
+  popupAnchor: [0, -40],
 });
 
 const iconOrga = new L.Icon({
   iconUrl: 'https://img.icons8.com/?size=100&id=Q6qPgCQf6iZX&format=png&color=000000',
-  iconSize: [60, 60],
-  iconAnchor: [15, 60],
-  popupAnchor: [0, -60],
+  iconSize: [40, 40],
+  iconAnchor: [15, 40],
+  popupAnchor: [0, -40],
 });
 
 const iconHot = new L.Icon({
   iconUrl: 'https://img.icons8.com/?size=100&id=3Vmqp9CYmbd7&format=png&color=000000',
-  iconSize: [60, 60],
-  iconAnchor: [15, 60],
-  popupAnchor: [0, -60],
+  iconSize: [40, 40],
+  iconAnchor: [15, 40],
+  popupAnchor: [0, -40],
 });
 
 const iconPha = new L.Icon({
   iconUrl: 'https://img.icons8.com/?size=100&id=11934&format=png&color=000000',
-  iconSize: [60, 60],
-  iconAnchor: [15, 60],
-  popupAnchor: [0, -60],
+  iconSize: [40, 40],
+  iconAnchor: [15, 40],
+  popupAnchor: [0, -40],
 });
 
 const iconMus = new L.Icon({
   iconUrl: 'https://img.icons8.com/?size=100&id=uGVCP6q9YD18&format=png&color=000000',
-  iconSize: [60, 60],
-  iconAnchor: [15, 60],
-  popupAnchor: [0, -60],
+  iconSize: [40, 40],
+  iconAnchor: [15, 40],
+  popupAnchor: [0, -40],
 });
 
 const iconBank = new L.Icon({
   iconUrl: 'https://img.icons8.com/?size=100&id=ekfhFWx8X7C3&format=png&color=000000',
-  iconSize: [60, 60],
-  iconAnchor: [15, 60],
-  popupAnchor: [0, -60],
+  iconSize: [40, 40],
+  iconAnchor: [15, 40],
+  popupAnchor: [0, -40],
 });
 
 // Function to return icon based on category
@@ -154,7 +154,7 @@ const AccessibleMap = () => {
       category: 'toilets',
     },
     {
-      position: [47.0487, 28.8603],
+      position: [47.0487, 28.8403],
       description: 'Access ramp - Atrium Shopping Center',
       category: 'ramps',
     },
@@ -179,7 +179,7 @@ const AccessibleMap = () => {
     category: 'cafes',
   },
   {
-    position: [47.0109, 28.8604],
+    position: [47.0109, 28.8404],
     description: 'Delice d Ange Café - ground floor, wide doors',
     category: 'cafes',
   },
@@ -254,7 +254,7 @@ const AccessibleMap = () => {
     category: 'organizations',
   },
   { 
-    position: [47.01714566628276, 28.844988728836054],
+    position: [47.01714566628276, 28.844988728834054],
     description: 'Compania Moldtelecom',
     category: 'organizations',
   },
@@ -264,7 +264,7 @@ const AccessibleMap = () => {
     category: 'organizations',
   },
   { 
-    position: [47.01184554369055, 28.879424376016356],
+    position: [47.01184554369055, 28.879424374016356],
     description: 'Compania „Rodals” SRL',
     category: 'organizations',
   },
@@ -274,7 +274,7 @@ const AccessibleMap = () => {
     category: 'organizations',
   },
   { 
-    position: [47.04672010564228, 28.864231386054854],
+    position: [47.04672010564228, 28.864231384054854],
     description: 'Compania Decoratii.md',
     category: 'organizations',
   },
@@ -329,7 +329,7 @@ const AccessibleMap = () => {
     category: 'organizations',
   },
   { 
-    position: [47.028811705675786, 28.821086488360596],
+    position: [47.028811705675786, 28.821086488340596],
     description: 'East Europe Foundation - Moldova',
     category: 'organizations',
   },
@@ -344,12 +344,12 @@ const AccessibleMap = () => {
     category: 'restaurants',
   },
   { 
-    position: [47.04923542106092, 28.889725269897284],
+    position: [47.04923542104092, 28.889725269897284],
     description: 'Select Banquet Hall',
     category: 'restaurants',
   },
   { 
-    position: [47.046954557717406, 28.88336088360582],
+    position: [47.046954557717406, 28.88334088340582],
     description: 'Gud',
     category: 'restaurants',
   },
@@ -364,22 +364,22 @@ const AccessibleMap = () => {
     category: 'restaurants',
   },
   { 
-    position: [47.04526546786039, 28.890859592590186],
+    position: [47.04526546784039, 28.890859592590186],
     description: 'La PLăcinte',
     category: 'restaurants',
   },
   { 
-    position: [47.04924242041501, 28.891288746032565],
+    position: [47.04924242041501, 28.891288744032565],
     description: 'Foișor',
     category: 'restaurants',
   },
   { 
-    position: [47.0481604847345, 28.891288746032565],
+    position: [47.0481404847345, 28.891288744032565],
     description: 'Don Cezar Pizza & Grill',
     category: 'restaurants',
   },
   { 
-    position: [47.0138026026102, 28.85322979999986],
+    position: [47.0138024026102, 28.85322979999986],
     description: 'Steak House',
     category: 'restaurants',
   },
@@ -389,7 +389,7 @@ const AccessibleMap = () => {
     category: 'restaurants',
   },
   { 
-    position: [47.03188444752936, 28.78136065396715],
+    position: [47.03188444752936, 28.78134065396715],
     description: 'Café de Paris',
     category: 'cafes',
   },
@@ -399,22 +399,22 @@ const AccessibleMap = () => {
     category: 'cafes',
   },
   { 
-    position: [47.0192766365416, 28.806029603674194],
+    position: [47.0192766365416, 28.804029403674194],
     description: 'Filin Café',
     category: 'cafes',
   },
   { 
-    position: [47.03941903442207, 28.88911744603259],
+    position: [47.03941903442207, 28.88911744403259],
     description: 'Blúr Café',
     category: 'cafes',
   },
   { 
-    position: [47.008560488923945, 28.864511115344094],
+    position: [47.008540488923945, 28.864511115344094],
     description: 'Amfion Café',
     category: 'cafes',
   },
   { 
-    position: [47.008560488923945, 28.864511115344094],
+    position: [47.008540488923945, 28.864511115344094],
     description: 'Pegas Burger Café',
     category: 'cafes',
   },
@@ -424,7 +424,7 @@ const AccessibleMap = () => {
     category: 'hotels',
   },
   {
-    position: [47.0260002448976, 28.841956032217702],
+    position: [47.0240002448976, 28.841954032217702],
     description: 'Salutaris Farm (filiala Varlaam)',
     category: 'pharmacy',
   },
@@ -464,7 +464,7 @@ const AccessibleMap = () => {
     category: 'pharmacy',
   },
   {
-    position: [47.010846376212605, 28.83591549614245],
+    position: [47.010846376212405, 28.83591549614245],
     description: 'Farmacia Felicia',
     category: 'pharmacy',
   },
@@ -474,17 +474,17 @@ const AccessibleMap = () => {
     category: 'pharmacy',
   },
   {
-    position: [47.02381867260481, 28.827274329812692],
+    position: [47.02381867240481, 28.827274329812692],
     description: 'Muzeul Național de Istorie a Moldovei',
     category: 'museum',
   },
   {
-    position: [47.02256696536627, 28.86043658656044],
+    position: [47.02256696536627, 28.84043658654044],
     description: 'Muzeul Național de Artă a Moldovei',
     category: 'museum',
   },
   {
-    position: [47.1691850572534, 27.582077288031604],
+    position: [47.1691850572534, 27.582077288031404],
     description: 'Casa Muzeelor',
     category: 'museum',
   },
@@ -494,12 +494,12 @@ const AccessibleMap = () => {
     category: 'museum',
   },
   {
-    position: [47.16318180928456, 27.580775015868603],
+    position: [47.16318180928456, 27.580775015868403],
     description: 'Muzeul Mitropolitan',
     category: 'museum',
   },
   {
-    position: [47.16006041781806, 27.58523821166936],
+    position: [47.14004041781806, 27.58523821166936],
     description: 'Palatul Culturii',
     category: 'museum',
   },
@@ -514,7 +514,7 @@ const AccessibleMap = () => {
     category: 'museum',
   },
   {
-    position: [47.16006041781806, 27.586611502684974],
+    position: [47.14004041781806, 27.586611502684974],
     description: 'Complexul Muzeul Național Moldova',
     category: 'museum',
   },
@@ -524,7 +524,7 @@ const AccessibleMap = () => {
     category: 'museum',
   },
   {
-    position: [47.02196472634183, 28.837418751860863],
+    position: [47.02196472634183, 28.837418751840863],
     description: 'maib',
     category: 'bank',
   },
@@ -534,32 +534,32 @@ const AccessibleMap = () => {
     category: 'bank',
   },
   {
-    position: [47.01898051467137, 28.83673210635606],
+    position: [47.01898051467137, 28.83673210635406],
     description: 'Moldindconbank - Filiala "Centru"',
     category: 'bank',
   },
   {
-    position: [47.06068235002831, 28.838534550811055],
+    position: [47.04068235002831, 28.838534550811055],
     description: 'Banca Naţională a Moldovei',
     category: 'bank',
   },
   {
-    position: [47.00534464156014, 28.839907841826673],
+    position: [47.00534464154014, 28.839907841826673],
     description: 'FinComBank',
     category: 'bank',
   },
   {
-    position: [47.026235954762896, 28.836903767760014],
+    position: [47.026235954762896, 28.836903767740014],
     description: 'Bancomat MAIB',
     category: 'bank',
   },
   {
-    position: [47.02442218718071, 28.83321604812554],
+    position: [47.02442218718071, 28.83321404812554],
     description: 'FinComBank',
     category: 'bank',
   },
   {
-    position: [47.02295942649907, 28.836903767760014],
+    position: [47.02295942649907, 28.836903767740014],
     description: 'Victoriabank, Sucursala nr. 11 Chișinău',
     category: 'bank',
   },
@@ -574,7 +574,7 @@ const AccessibleMap = () => {
     category: 'bank',
   },
   {
-    position: [47.06015582255493, 28.83733292117239],
+    position: [47.04015582255493, 28.83733292117239],
     description: 'maib bancomat',
     category: 'bank',
   },
@@ -584,7 +584,7 @@ const AccessibleMap = () => {
     category: 'bank',
   },
   {
-    position: [47.02118280476022, 28.829021169311247],
+    position: [47.02118280474022, 28.829021169311247],
     description: 'World Bank Group',
     category: 'bank',
   },
@@ -604,11 +604,11 @@ const AccessibleMap = () => {
   return (
  <section className="relative h-[calc(100vh-64px)] ">
   {/* Dropdown-ul fixat sus dreapta peste hartă */}
-  <div className="absolute top-4 right-4 z-[1000] mr-[50px]">
+  <div className="absolute md:top-4 md:right-4 z-[1000] md:mr-[50px] right-2 top-2">
     <select
       value={filter}
       onChange={(e) => setFilter(e.target.value)}
-      className="p-2 rounded-md border border-gray-600 shadow-sm text-base bg-white"
+      className="p-2 rounded-md border border-gray-400 shadow-sm text-base bg-white"
     >
       <option value="all">All locations</option>
       <option value="toilets">Accessible toilets</option>
