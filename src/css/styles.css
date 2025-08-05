@@ -23,7 +23,7 @@ body {
     z-index: 0;
 }
 
-.swiper-button-prev,
+/* .swiper-button-prev,
 .swiper-button-next {
   color: white;
   position: absolute;
@@ -49,16 +49,23 @@ body {
     height: 0.5rem;
     
   }
-}
+} */
 
 
 
 .swiper-pagination-bullet {
   background-color: white; 
-  opacity: 0.5;
+  opacity: 1;
+  width: 0.5rem;
+  height: 0.5rem;
 }
 
 .swiper-pagination-bullet-active {
-  background-color: black; 
+  background-color: #57C785; 
   opacity: 1;
+  width: 0.8rem;
+  height: 0.8rem;
 }
+
+
+
