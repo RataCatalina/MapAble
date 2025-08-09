@@ -23,7 +23,8 @@ const Index = () => {
 };
 
   return (
-    <section className="bg-img h-[100svh] flex items-start md:items-center justify-center pt-[50%] md:pt-0">
+    <section className='bg-img h-screen'>
+    <section className=" flex items-start md:items-center justify-center pt-[50%] md:pt-[2%] px-0.5">
       <Swiper
         slidesPerView={1}
         spaceBetween={0}
@@ -37,13 +38,13 @@ const Index = () => {
         }}
        
         modules={[Pagination, Navigation]}
-        className="mySwiper relative w-full h-[230px] md:w-[65vw] md:h-[550px]  object-cover md:my-10 z-50 ">
+        className="mySwiper  relative w-full h-[230px] md:w-[65vw] md:h-[550px]  object-cover md:my-10 z-50 ">
 
         {['/videos/IMG_4850.mp4', '/videos/IMG_4734.mp4', '/videos/IMG_4738.mp4'].map((src, index) => {
   const posters = ['/images/AnastasiaS.jpg', '/images/ElenaR.jpg', '/images/MarinaH.jpg'];
   return (
-    <SwiperSlide key={index}>
-      <div className="flex items-center justify-center w-full h-[230px] md:h-[515px] md:w-[60vw] mx-5">
+    <SwiperSlide key={index} className='flex justify-center'>
+      <div className="flex items-center justify-center w-dvw h-[230px] md:h-[515px] md:w-[60vw] ">
         <video
           src={src}
           poster={posters[index]}
@@ -56,12 +57,16 @@ const Index = () => {
   );
 })}
       </Swiper>
-
-    {/* <div>
-      <button><FaExclamation /></button>
-    </div> */}
-
     </section>
+    
+    <div className='relative md:-right-11/12 cursor-pointer object-bottom-right -right-4/5 pt-18 md:pt-0 '>
+    <div className="bg-[#57C785] w-16 h-16 md:w-24 md:h-24 rounded-full flex items-center justify-center shadow-lg shadow-[#57C785] hover:md:w-[104px] hover:md:h-[104px] hover:w-20 hover:h-20 duration-75 " >
+      <button className='text-white md:text-4xl text-2xl'><FaExclamation /></button>
+    </div>
+    </div>
+     
+
+  </section>
 
   );
 };
